@@ -11,7 +11,7 @@ function mostrarMenu() {
         //Esconda o menu
         menu.style.display = "none";
 
-        menu_barras.setAttribute("aria-expanded", "false")
-        menu_barras.setAttribute("aria-label", "abrir o menu")
+        menu_barras.setAttribute("aria-expanded", "false");
+        menu_barras.setAttribute("aria-label", "abrir o menu");
     }
 }
