@@ -448,7 +448,23 @@ footer {
     }
     
     #menu_links{
-        display: none;
+        /* display: none; */
+
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        background-color: var(--azul);
+        z-index: 1;
+        height: 400px;
+        padding-bottom: 50px;
+        box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+
+
+    }
+
+      .header{
+        position: relative;
     }
     
 }
