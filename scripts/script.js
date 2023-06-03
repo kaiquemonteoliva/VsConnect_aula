@@ -15,3 +15,11 @@ function mostrarMenu() {
         menu_barras.setAttribute("aria-label", "abrir o menu");
     }
 }
+
+addEventListener("resize", () => {
+    if(window.innerWidth > 768){
+        menu.style.display = 'flex'
+    }else{
+        menu.style.display = 'none'
+    }
+});

@@ -442,13 +442,14 @@ footer {
     
 }
 
+/* Media query */
 @media screen and (max-width: 768px){
     .menu_barras{
         display: flex;
     }
     
     #menu_links{
-        /* display: none; */
+        display: none;
 
         flex-direction: column;
         position: absolute;
@@ -469,5 +470,14 @@ footer {
     
 }
 
+@media screen and (max-width: 700px){
+    .dev_conteudo img, .clientes_conteudo img{
+        display: none;
+    }
+
+    
+}
+
+/* https://www.cssmatic.com/box-shadow - para fazer sombras */
 
 
